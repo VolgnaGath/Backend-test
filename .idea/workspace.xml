@@ -4,14 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f506cae-b2d9-4854-9a74-1b64bf5edcfb" name="Changes" comment="" />
+    <list default="true" id="5f506cae-b2d9-4854-9a74-1b64bf5edcfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductMarket/Services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductMarket/Services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductMarket/dto/GetCategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductMarket/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductMarket/ultils/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductMarket/ultils/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dto/request/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dto/response/ClassifyCuisineResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dto/response/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dto/response/SearchResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductMarketTests/DeleteProductTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductMarketTests/GetCategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductMarketTests/GetProductByIdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductMarketTests/GetProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductMarketTests/PostProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductMarketTests/PutProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Lesson3/PostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Lesson3/PostTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Lesson3/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Lesson3/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Lesson3/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Lesson3/TestClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JLoNiSw3WXY26Y8LFZgFQrA9Bv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +56,103 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.48390806",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ProductMarketTests in Backend-test">
+    <configuration name="DeleteProductTests.deleteProductByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductMarketTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProductMarketTests" />
+      <option name="MAIN_CLASS_NAME" value="ProductMarketTests.DeleteProductTests" />
+      <option name="METHOD_NAME" value="deleteProductByIdPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProductByIdTest.getProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductMarketTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProductMarketTests" />
+      <option name="MAIN_CLASS_NAME" value="ProductMarketTests.GetProductByIdTest" />
+      <option name="METHOD_NAME" value="getProductsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProductsTest.getProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductMarketTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProductMarketTests" />
+      <option name="MAIN_CLASS_NAME" value="ProductMarketTests.GetProductsTest" />
+      <option name="METHOD_NAME" value="getProductsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMarketTests in Backend-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductMarketTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProductMarketTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutProductTest.putProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductMarketTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProductMarketTests" />
+      <option name="MAIN_CLASS_NAME" value="ProductMarketTests.PutProductTest" />
+      <option name="METHOD_NAME" value="putProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductMarketTests in Backend-test" />
+        <item itemvalue="JUnit.GetProductByIdTest.getProductsTest" />
+        <item itemvalue="JUnit.PutProductTest.putProductTest" />
+        <item itemvalue="JUnit.GetProductsTest.getProductsTest" />
+        <item itemvalue="JUnit.DeleteProductTests.deleteProductByIdPositiveTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +163,16 @@
       <updated>1671866691120</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
